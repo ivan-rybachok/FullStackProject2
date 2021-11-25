@@ -3,7 +3,7 @@ import {sendJSONData} from "../tools/Toolkit";
 import {CommentProps, Photo} from "../tools/photoapp.model";
 import "./Comments.scss";
 // scirpt that is being used to where the data is being send
-const SUBMIT_SCRIPT = "http://localhost:8080/put";
+const SUBMIT_SCRIPT = "http://localhost:8080/post";
 
 const Comments = ({enabled,selected,photos, setLoading, fetchData}: CommentProps) => {
     

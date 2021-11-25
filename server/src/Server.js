@@ -47,7 +47,7 @@ app.get("/get", async (request, response) => {
     }
 });
 
-app.put("/put", async (request, response) => {
+app.post("/post", async (request, response) => {
     // construct a MongoClient object, passing in additional options
     let mongoClient = new MongoClient(URL, { useUnifiedTopology: true });
     let id = new ObjectId(request.sanitize(request.body._id));
