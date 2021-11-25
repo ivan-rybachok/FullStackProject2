@@ -70,6 +70,7 @@ app.post("/post", async (request, response) => {
                             comments : {
                                 $each : request.body.comments,
                                 // $sort : {"comment": 1}
+                                // this will sort the comments by the most recent added
                                 $position : 0
                             } 
                         } 
