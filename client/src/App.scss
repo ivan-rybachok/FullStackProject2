@@ -1,0 +1,113 @@
+// Sass Styling goes here
+// ...
+
+body {
+  height: 100%;
+  padding: 40px;
+  margin: 0;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+.my-header {
+  padding-bottom: 10px;
+}
+
+.my-header h1 {
+  color: #505050;
+  display: inline;
+}
+span{
+  color: #505050;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.previous__button {
+
+  //background-color:#d2d7d7;
+  background-color:#428bca;
+  // color:grey;
+  color:white;
+  border-radius: 4px;
+  border-style: none;
+  width: 65px;
+  height: 25px;
+  transition-duration: 0.4s;
+  margin-right: 3.5px;
+}
+
+.previous__button:not(:disabled):hover{
+    background-color: #2b5786;
+    color: white;
+}
+
+
+button:disabled{
+    background-color: #d2d7d7;
+    color: grey;
+}
+  
+// }
+// .previous__button:disabled:hover {
+//     cursor: not-allowed;
+// }
+
+.next__button {
+  background-color:#428bca;
+  color:white;
+  border-radius: 2px;
+  border-style: none;
+  width: 40px;
+  height: 25px;
+  margin-right: 3.5px;
+
+}
+
+.next__button:not(:disabled):hover{
+    background-color: #2b5786;
+    color: white;
+}
+
+.jump__button {
+  background-color:#ffbb33;
+  color: white;
+  border-radius: 2px;
+  border-style: none;
+  width: 45px;
+  height: 25px;
+  margin-right: 3.5px;
+
+}
+
+.jump__button:hover {
+  background-color: #cc8c04;
+  color: white;
+}
+
+.comment__button {
+  background-color:#ffbb33;
+  color: white;
+  border-radius: 2px;
+  border-style: none;
+  width: 70px;
+  height: 25px;
+
+}
+
+.comment__button:hover {
+  background-color: #cc8c04;
+  color: white;
+}
+
+.buttons__control, .lbl {
+  display: inline-block;
+  // letter-spacing: 5px;
+}
+
+.lbl {
+  margin-left: 10px;
+  align-self: center;
+  font-size: 12px;
+}
+

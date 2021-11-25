@@ -1,0 +1,21 @@
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //padding-top: px; 
+  }
+  
+  .images img  {
+    border-radius: 5px;
+    //padding: 2px;
+    margin: 2px;
+    width: 73px;
+    height: 55px;
+    opacity: 50%;
+    margin-top: 25px;
+  }
+  
+  .images img:hover {
+    opacity: 100%;
+  }
